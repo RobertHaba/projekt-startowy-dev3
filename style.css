@@ -140,3 +140,68 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
     
+
+.page__section-vgrad {
+    height: 100vh;
+    background: linear-gradient(to right, #bfacfe, #795fff);
+}
+
+.page__layout-content {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.page__layout-wrapper {
+    height: inherit;
+    max-height: 100vh;
+    width: inherit;
+}
+
+h1.main-title {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav.navbar {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-image: url("img/icons/dot.svg");
+    background-repeat: repeat;
+    background-position: 1px 1px;
+    background-size: 10px;
+}
+
+.sq-left {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+
+.sq-right {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.triangle {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
