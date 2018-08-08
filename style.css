@@ -162,7 +162,12 @@ h1.main-title {
     position: fixed;
     top: 20%;
     left: 50%;
+    min-width: 60%;
     transform: translateX(-50%);
+    color: white;
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
 }
 
 header.head {
@@ -171,11 +176,61 @@ header.head {
     width: 100%;
 }
 
+div.nav-wrapper {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 nav.navbar {
     position: fixed;
-    top: 0;
+    top: 25px;
+    left: 0;
     text-align: center;
+    height: 40px;
     width: 100%;
+    display: inline-block;
+    font-family: Roboto;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+ul.nav-logo {
+    display: inline-block;
+    float: left;
+}
+
+ul.nav-menu {
+    float: right;
+    line-height: 100%;
+}
+
+ul.nav-menu > li {
+    display: inline-block;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    margin: auto 5px;
+}
+
+ul.nav-menu > li > button.login-btn, button.more {
+    color: white;
+    background-color: #3ce1f4;
+    height: 30px;
+    width: 70px;
+    box-shadow: -2px -1px 10px gray, 3px 6px 15px gray;
+    font-family: Open Sans;
+}
+
+button.more {
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .square {
@@ -183,7 +238,7 @@ nav.navbar {
     height: 150px;
     background-image: url("img/icons/dot.svg");
     background-repeat: repeat;
-    background-position: 1px 1px;
+    background-position: 0px 0px;
     background-size: 10px;
 }
 
@@ -204,4 +259,38 @@ nav.navbar {
     position: fixed;
     left: 10px;
     top: 10px;
+    -webkit-clip-path: polygon(100% 0, 100% 4%, 4% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 4%, 4% 100%, 0 100%, 0 0);
+    /*transform: rotate(45deg);*/
+}
+
+.laptop {
+    height: 100%;
+    width: 100%;
+}
+
+.laptop > img.n1 {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    z-index: 10;
+}
+
+.laptop > img.n2 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 326px;
+    z-index: 1;
+}
+
+.laptop > img.n3 {
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
 }
