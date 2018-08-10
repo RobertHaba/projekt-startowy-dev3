@@ -134,6 +134,14 @@
         margin: 0;
     }
 
+    /* */
+    /*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+
 .features{
     text-align:center;
     font-family: 'Open Sans', sans-serif;
@@ -236,10 +244,3 @@
     transition: background 1s ease;
     cursor:pointer;
 }
-    /* */
-    /*
-font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-*/
-    
